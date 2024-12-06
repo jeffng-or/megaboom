@@ -9,15 +9,17 @@ module(
 # 1. comment git_override() below
 # 2. uncomment local_path_override below
 #
-#local_path_override(
-#   module_name = "bazel-orfs", path = "../bazel-orfs"
-#)
-bazel_dep(name = "bazel-orfs")
-git_override(
+local_path_override(
     module_name = "bazel-orfs",
-    commit = "b141f4942eb8b457e9d37d6ae575abf8dcae8b39",
-    remote = "https://github.com/The-OpenROAD-Project/bazel-orfs.git",
+    path = "../bazel-orfs",
 )
+
+bazel_dep(name = "bazel-orfs")
+#git_override(
+#    module_name = "bazel-orfs",
+#    commit = "b141f4942eb8b457e9d37d6ae575abf8dcae8b39",
+#    remote = "https://github.com/The-OpenROAD-Project/bazel-orfs.git",
+#)
 
 # TL;DR to test with a locally built ORFS docker image, update below after building
 # locally and run `bazel mod tidy`:
