@@ -37,6 +37,6 @@ bazel_dep(name = "bazel-orfs")
 
 orfs = use_extension("@bazel-orfs//:extension.bzl", "orfs_repositories")
 orfs.default(
-    image = "docker.io/openroad/orfs:v3.0-1871-g4e29c449",
-    sha256 = "b169423e0b42c6912f6cd8989a58132d24885c4f69b863b9a93cb6bccc67258b",
+    image = "docker.io/openroad/orfs:v3.0-1892-gad3512e9",
+    sha256 = "788fd4b7bb6bcd16fd2f5d8c1492c53584afcfbcecac8ee4b79cd2c9455d745e",
 )

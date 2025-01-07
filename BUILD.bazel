@@ -110,36 +110,36 @@ boom_tile_small_srams = {
         "aspect_ratio": "0.33",
     },
     "tag_array_64x168": {
-        "mock_area": 0.31,
+        "mock_area": 0.39,
         "aspect_ratio": "0.36",
     },
     # "data_2048x2": { "mock_area": None, "aspect_ratio": "2" },
     "table_256x48": {
-        "mock_area": 0.31,
+        "mock_area": 0.39,
         "aspect_ratio": "1.25",
     },  #close
     "table_128x52": {
-        "mock_area": 0.31,
+        "mock_area": 0.39,
         "aspect_ratio": "0.58",
     },  #close
     "table_128x44": {
-        "mock_area": 0.31,
+        "mock_area": 0.39,
         "aspect_ratio": "0.68",
     },  # close
     "btb_128x56": {
-        "mock_area": 0.309,
+        "mock_area": 0.39,
         "aspect_ratio": "0.53",
     },  # close
     "meta_128x120": {
-        "mock_area": 0.31,
+        "mock_area": 0.39,
         "aspect_ratio": "0.25",
     },
     "lb_32x128": {
-        "mock_area": 0.32,
+        "mock_area": 0.39,
         "aspect_ratio": "0.93",
     },
     "sdq_17x64": {
-        "mock_area": 0.32,
+        "mock_area": 0.39,
         "aspect_ratio": "1.2",
     },
     "data_2048x8": {
@@ -148,7 +148,7 @@ boom_tile_small_srams = {
         "core_utilization": "10",
     },
     "mem_256x4": {
-        "mock_area": 0.265,
+        "mock_area": 0.39,
         # "aspect_ratio": "36",
     },
 }
